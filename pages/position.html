@@ -6,6 +6,7 @@
   <meta name="keywords" content="etiquetas, html, tablas, listas, párrafos,selectores" >
   <meta name="description" content="Practica de etiquetas HTML5 y estilos de CSS3">
   <meta name="author" content="Nicolás Lagoria">
+  <link rel="stylesheet" href="../index.css">
   <title>Primer Web</title>
 </head>
 <body>
@@ -21,6 +22,19 @@
   <main>
     <article>
       <h1>Practica de position</h1>
+    </article>
+    <article>
+      <h2>Tipos de posicionamiento</h2>
+      <p>La propiedad position de CSS especifica cómo un elemento es posicionado en el documento. Las propiestas <strong>top,right,bot y left</strong> determinan la ubicación final delos elementos posicionados.</p>
+      <p>Un elemento posicionado es un elemento cuyo valor computado de position es <strong>relative,absolute,fixed,o sticky.</strong>(En otras palabras,cualquiera excepto static).</p>
+      <p><strong>Un elemento posicionado relativamente</strong> es un elemento cuyo valor computado de position es relative. Las propiedades top y bottom especifican el desplazamiento vertical desde su
+        posición original; las propiedades left y right especifican su desplazamiento horizontal.</p>
+        <p><strong>Un elemento posicionado absolutamente</strong> es un elemento cuyo valor computado de position es absolute o fixed. Las propiedades top, right, bottom, y left especifican el desplazamiento
+          desde los bordes del bloque contenedor del elemento. (El bloque contenedor es el ancestro relativo al cual el elemento está posicionado). Si el elemento tiene márgenes, se agregarán al
+          desplazamiento. el elemento establece un nuevo contexto de formato de bloque para su contenido</p>
+          <p><strong>Un elemento posicionado fijamente</strong>Un es un elemento cuyo valor de position computado es sticky. Es tratado como un elemento posicionado relativamente hasta que su bloque contenedor
+            cruza un límite establecido (como por ejemplo dando a top cualquier valor distinto de auto), dentro de su flujo principal (o el contenedor dentro del cual se mueve), desde el cual es tratado
+            como "fijo" hasta que alcance el borde opuesto de su bloque contenedor.</p>
     </article>
     
 

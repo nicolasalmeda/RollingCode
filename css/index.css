@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flexbox;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgb(49, 49, 49);
+  padding: 25px;
+}
+
+nav a {
+color: azure;
+text-decoration: none;
+margin: 0 0 0 10px;
+font-size: 20px;
+}
+
+main section {
+  padding: 50px;
+  background-color: rgb(42, 134, 227);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: azure;
+  font-weight: 20px;
+}
+
+footer {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  color: azure;
+  font-size: 20px;
+  padding: 25px;
+  margin-top: 20px;
+}
+
+article {
+  font-size: 20px;
+  margin: 20px;
+}

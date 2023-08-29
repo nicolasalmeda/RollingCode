@@ -6,59 +6,245 @@
   <meta name="keywords" content="etiquetas, html, tablas, listas, párrafos,selectores" >
   <meta name="description" content="Practica de etiquetas HTML5 y estilos de CSS3">
   <meta name="author" content="Nicolás Lagoria">
-  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="../fontawesome/fontawesome-free-6.4.2-web/css/all.css">
+  <link rel="stylesheet" href="./css/styles.css">
   <title>Primer Web</title>
 </head>
 <body>
-  <header>
-    <nav>
-      <a href="index.html">Inicio</a>
-      <a href="./pages/elementos.html">Elementos</a>
-      <a href="./pages/contacto.html">Contacto</a>
-      <a href="./pages/flexbox.html">Flexbox</a>
-      <a href="./pages/position.html">Position</a>
+  <header class="position_header">
+    <h1><i class="fa-solid fa-utensils"></i> R-Parrillada</h1>
+    <nav  class="position_nav">
+      <a href="#inicio">INICIO</a>
+      <a href="#nosotros">NOSOTROS</a>
+      <a href="#servicios">SERVICIOS</a>
+      <a href="#menu">MENU</a>
+      <a href="#contacto">CONTACTO</a>
     </nav>
   </header>
-  <main>
-    <section>
-      <h1>Practica de HTML y CSS</h1>
+  <main >
+    <section id="inicio" class="postion_img_background">
+      <div class="text-background_image">
+        <div class="text-image">
+          <p class="title-image">Disfruta nuestros deliciosos 
+            <br>platos</p>
+          <p class="title-description">¡Descubre una experiencia culinaria inigualable en nuestras parrillada excepcional! En cada bocado, transportamos tus sentidos a las vastas llanuras de Argentina,donde el arte de la parrilla es una tradición arraigada. Nuestro equipo apasionado de parrilleros maestros se esfuerza por ofrecerte el auténtico sabor de la carne asada a la parrilla, cuidadosamente sazonada y codida a la perfección en brasas ardientes</p>
+        </div>
+        
+      </div>
     </section>
-    <article>
-      <h2>Comenzamos nuestra primer web</h2>
-      <p>Una página web básica creada con HTML y CSS es una página estática que muestra contenido e información sin funcionalidades interacticas o dinámicas. Aquí tienes una descripción básica de cómo se estructura una página web con HTML y se le da estilo con CSS:</p>
+   <section id="servicios" class="card-section">
+    <div class="card"><i class="fa-solid fa-user-tie i-card"></i>
+    <h4>Master Chefs</h4>
+  <p>Nuestros apasionados chefs expertos en el arte de la parrilla,dan vida a cada corte de carne con maestría y creatividad, creando una experiencia culinaria única y llena de sabor en cada plato que servimos</p></div>
+    <div class="card"><i class="fa-solid fa-utensils i-card"></i>
+      <h4>Comida de calidad</h4>
+    <p>En nuestra parrillada, la calidad de la comida es nuestro sello distintivo.
+      Seleccionamos cuidadosamente los ingredientes más frescos y los cortes de carne más jugosos para garantizar que cada bocado sea una explosión de auténtico placer gastronómico
+    </p></div>
+    <div class="card"><i class="fa-solid fa-cart-plus i-card"></i>
+      <h4>Ordena en linea</h4>
+    <p>Explora nuestra deliciosa oferta desde la comodidad de tu hogar.
+      Nuestra plataforma de orden en línea te permite seleccionar tus platos favoritos y personalizar cada detalle de tu pedido para disfrutar de la experiencia de nuestra parrillada en cualquier lugar que te encuentres.
+    </p></div>
+    <div class="card"><i class="fa-solid fa-users i-card"></i>
+      <h4>Atención al cliente</h4>
+    <p>La satisfacción de nuestros clientes es nuestra máxima prioridad.
+      Nuestro equipo está comprometido en brindarte un servicio excepcionaly amable en cada visita. Desde el momento en que entras hasta el último bocado, te aseguramos una atención al ciente de primero nivel que complementa a la perfección nuestra deliciosa comida y ambiente acogedor.</p></div>
+  </section>
+  <section id="nosotros" class="about-section">
+    <article class="gallery">
+      <div class="sub-gallery">
+
+        <div class="img-about img-big-top">
+          <img class="img-big" src="../img/position/about-1.jpg" alt="no img">
+        </div>
+        <div class="img-about img-small-top">
+          <img class="img-small" src="../img/position/about-2.jpg" alt="no img">
+        </div>
+      </div>
+      <div class="sub-gallery">
+
+        <div class="img-about img-small-bot">
+          <img class="img-small" src="../img/position/about-3.jpg" alt="no img">
+        </div>
+        <div class="img-about img-big-bot">
+          <img class="img-big" src="../img/position/about-4.jpg" alt="no img">
+        </div>
+      </div>
     </article>
-    <article>
-      <h2>HTML(HyperText Markup Language):</h2>
-      <p>HTML es el lenguaje de marcado utilizado para crear la estructura y el contenido de la página web. Se compone de elementos, etiquetas y atributos que definen la disposición y
-        jerarquía del contenido.</p>
-        <ul>
-          <li>Encabezado: Se define utilizando la etiqueta <head>. Aquí se incluyen elementos como el título de la página, metadatos (como la codificación de caracteres y la descripción
-            de la página) y enlaces a hojas de estilo CSS y otros recursos.
-            </li>
-          <li>Cuerpo: Se define con la etiqueta <body>. Aquí es donde se coloca todo el contenido visible de la página, como encabezados, párrafos, imágenes, enlaces y otros elementos.</li>
-          <li>Etiquetas: Los elementos HTML se crean con etiquetas, como &lsaquo;h1&rsaquo; para encabezados principales, &lsaquo;p&rsaquo; para párrafos, &lsaquo;img&rsaquo; para imágenes y &lsaquo;a&rsaquo; para enlaces.</li>
-        </ul>
+    <article class="about-description">
+      <h3>-Nosotros-</h3>
+      <h2>Bienvenidos a <i class="fa-solid fa-utensils"></i> R-Parrillada</h2>
+      <p class="description-about">En nuestra parrillada, el aroma del humo y la carne cocinándose se mezclan en una danza seductoria que despierta tu apetito. Cada corte de carne es seleccionado con esmero, asegurando la frescura y la calidad que mereces.
+        Desde los cortes más toernmps y jugosos hasta los sabores audaces y ahumados de las costillas, te garantizamos un viaje sensorial que te dejará ansiando cada siguiente visita.
+      </p>
+      <p class="description-about">Ya sea que te encuentrres celebrando un momento especial o simplemente deseando un festín inolvidable, nuuestra parrillada es el lugar perfecto para compartir con los tuyos. Acompaña tus platos principales con una selección de guarniciones y salsas artesanales, todo preparado para complementar y realzar la experiencia. Ven y únete a nosotros en un banquete deonde el fuego, el sabor y la hospitalidad se unen para crear recuerdos duraderos. ¡Te esperamos en nuesta parrillada para compartir contigo un festín que deleitará tus sentidos y te hará volver por más!</p>
     </article>
-    <article>
-      <h2>CSS (Cascading Style Sheets)
-      </h2>
-      <p>CSS es el lenguaje utilizado para dar estilo y diseño a la página web. Permite controlar la apariencia de los elementos HTML, como colores, fuentes, tamaños, márgenes y
-        posicionamiento.
-        </p>
-        <ol>
-          <li>Selectores: Los selectores de CSS identifican los elementos HTML a los que se aplicarán los estilos. Pueden ser selectores de etiquetas (como h1, p, img), de clases (como
-            encabezado, .contenedor) o de identificadores (como menu, pie).</li>
-          <li>Propiedades: Las propiedades de CSS definen cómo se verán los elementos seleccionados. Por ejemplo, color define el color del texto, font-family establece la fuente del
-            texto, margin define los márgenes y background establece el color de fondo.</li>
-          <li>Valores: Los valores son asignados a las propiedades y determinan cómo se mostrará el elemento. Por ejemplo, el valor blue para color establecerá el texto en azul, y 20px
-            para font-size establecerá el tamaño del texto en 20 píxeles.</li>
-        </ol>
+  </section>
+  <section id="menu" class="menu-section">
+    <h3>-Nuestro Menu-</h3>
+    <h4>Nuestros platos populares</h4>
+    <article class="menu-card-container">
+      <div class="menu-card">
+        <img src="../img/position/menu-1.jpg" alt="">
+        <div class="description-menu-card">
+          <div class="title-menu-card">
+            <h4>Chicken Burger</h4>
+            <p>$115</p>
+
+          </div>
+          <hr>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, unde.</p>
+        </div>
+      </div>
+      <div class="menu-card">
+        <img src="../img/position/menu-2.jpg" alt="">
+        <div class="description-menu-card">
+          <div class="title-menu-card">
+            <h4>Chicken Burger</h4>
+            <p>$115</p>
+
+          </div>
+          <hr>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, unde.</p>
+        </div>
+      </div>
+      <div class="menu-card">
+        <img src="../img/position/menu-3.jpg" alt="">
+        <div class="description-menu-card">
+          <div class="title-menu-card">
+            <h4>Chicken Burger</h4>
+            <p>$115</p>
+
+          </div>
+          <hr>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, unde.</p>
+        </div>
+      </div>
+      <div class="menu-card">
+        <img src="../img/position/menu-4.jpg" alt="">
+        <div class="description-menu-card">
+          <div class="title-menu-card">
+            <h4>Chicken Burger</h4>
+            <p>$115</p>
+
+          </div>
+          <hr>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, unde.</p>
+        </div>
+      </div>
+      <div class="menu-card">
+        <img src="../img/position/menu-5.jpg" alt="">
+        <div class="description-menu-card">
+          <div class="title-menu-card">
+            <h4>Chicken Burger</h4>
+            <p>$115</p>
+
+          </div>
+          <hr>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, unde.</p>
+        </div>
+      </div>
+      <div class="menu-card">
+        <img src="../img/position/menu-6.jpg" alt="">
+        <div class="description-menu-card">
+          <div class="title-menu-card">
+            <h4>Chicken Burger</h4>
+            <p>$115</p>
+
+          </div>
+          <hr>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, unde.</p>
+        </div>
+      </div>
+      <div class="menu-card">
+        <img src="../img/position/menu-7.jpg" alt="">
+        <div class="description-menu-card">
+          <div class="title-menu-card">
+            <h4>Chicken Burger</h4>
+            <p>$115</p>
+
+          </div>
+          <hr>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, unde.</p>
+        </div>
+      </div>
+      <div class="menu-card">
+        <img src="../img/position/menu-8.jpg" alt="">
+        <div class="description-menu-card">
+          <div class="title-menu-card">
+            <h4>Chicken Burger</h4>
+            <p>$115</p>
+
+          </div>
+          <hr>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, unde.</p>
+        </div>
+      </div>
     </article>
+
+  </section>
+  <section id="contacto" class="contacto-section">
+    <div class="contacto-img">
+      <img src="../img/position/contacto.jpg" alt="">
+    </div>
+    <form class="contact-form">
+      <h3>-Consulta-</h3>
+      <h4>Completá el formulario</h4>
+      <div class="form-name">
+        <div class="form-input"><label for="">Nombre y Apellido:</label><input type="text" maxlength="30" minlength="5" placeholder="Ej:Juan Perez..." required></div>
+        <div class="form-input"><label for="">Email:</label><input type="email" maxlength="20" minlength="5" placeholder="ejemplo@gmail.com" required></div>
+      </div>
+      <div class="consulta-form">
+        <label for="">Consulta</label>
+        <input class="consulta" type="text" placeholder="comentario...">
+      </div>
+      <button>Enviar Consulta</button>
+
+    </form>
+  </section>
+  <section class="cheff-section">
+    <h3>Nuestro equipo</h3>
+    <h4>Conocé nuestros cheffs</h4>
+    <div class="card-cheff-container">
+      <div class="card-cheff">
+        <img src="../img/position/team-1.jpg" alt="">
+        <h5>Lionel Scaloni</h5>
+      </div>
+      <div class="card-cheff">
+        <img src="../img/position/team-2.jpg" alt="">
+        <h5>Walter Samuel</h5>
+      </div>
+      <div class="card-cheff"><img src="../img/position/team-3.jpg" alt="">
+      <h5>Pablo Aimar</h5></div>
+      <div class="card-cheff">
+        <img src="../img//position/team-4.jpg" alt="">
+        <h5>Roberto Fabían Ayala</h5>
+      </div>
+    </div>
+  </section>
 
 
   </main>
-  <footer>
-    <p>&copy; RollingCode 2023 - Todos los derechos reservados</p>
+  <footer class="footer">
+      <div class="footer-div"><h3>Información</h3><p class="info">Reservas Politica de privacidad Terminosy condiciones</p></div>
+      <div class="footer-div"><h3>Contacto</h3><p><i class="fa-solid fa-location-dot"></i>Gral.Paz 576, San Miguel de Tucumán</p>
+      <p><i class="fa-solid fa-phone"></i>0381339900</p>
+    <p><i class="fa-regular fa-envelope"></i>info@-rparrillada.com</p></div>
+      <div class="footer-div"><h3>Horarios</h3>
+      <p>Lunes a Sábados <br>09AM - 12 PM</p>
+    <p>Domingos <br>
+    10AM - 10PM</p></div>
+      <div class="footer-div">
+        <h3>Nuestras Redes</h3>
+        <div class="redes">
+
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+        </div>
+      </div>
+    </div>
   </footer>
 </body>
 </html>

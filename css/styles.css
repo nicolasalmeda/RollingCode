@@ -1,0 +1,1788 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Nunito:wght@400;700&family=Pacifico&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  scroll-behavior: smooth;
+}
+
+
+.position_header{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(49, 49, 49);
+  height: 100px;
+  width: 100%;
+  font-family: 'Nunito', sans-serif;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 100; 
+}
+.position_nav{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 15px;
+  width: 100%;
+  padding: 2% 2%;
+  justify-content: end;
+}
+
+h1{
+  display: flex;
+  color: #fea116;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  justify-self: flex-start;
+  padding: 0 2%;
+}
+
+nav a {
+  display: flex;
+  color: azure;
+  text-decoration: none;
+  padding: 0px 20px;
+}  
+
+/* ----------->FIN HEADER<---------------- */
+
+/* ------------> SECTION BANNER <--------------- */
+
+.postion_img_background{
+  height: 75%;
+  background-image: url('../img/position/bg-banner.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.text-background_image{
+  height: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3%;
+
+}
+
+.text-image{
+  height: 100%;
+  width: 75%;
+  text-align: center;
+  position: relative;
+  padding-bottom: 3%;
+  
+}
+
+.title-image{
+  font-size: 50px;
+  color: azure;
+  font-family: 'Fuzzy Bubbles', cursive;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+}
+
+.title-description{
+  color: azure;
+  font-size: 20px;
+} 
+/*------------>FIN DE SECTION BANNER<------------ */
+
+/* ----------> SECTION CARDS <-----------*/
+.card-section{
+  height: 50%;
+  background-color: rgb(218, 234, 249);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  padding: 2% 0%;
+}
+
+div.card{
+  display: flex;
+  background-color: azure;
+  padding: 2%;
+  width: 85%;
+  margin: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: 'Heebo', sans-serif;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.i-card{
+  font-size: 30px;
+  color: #fea116;
+  
+}
+
+/*------------>FIN DE SECTION CARDS<------------ */
+
+/* ----------------> SECTION ABOUT, GALERIA <------------------ */
+
+.about-section {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 5px 0px;
+background-color: rgb(218, 234, 249);
+height: 35%;
+display: flex;
+width: 100%;
+}
+
+.gallery{
+  display: flex;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sub-gallery{
+  display: flex;
+}
+
+.img-about{
+ width: 100%;
+ height: 100%;
+}
+
+
+.img-small-top{
+
+  display: flex;
+  justify-content: start;
+  align-items: end;
+ margin-left: 10px;
+ margin-bottom: 10px;
+
+}
+
+.img-small-bot{
+  display: flex;
+  justify-content: end;
+  align-items: start;
+  margin-top: 10px;
+  margin-right: 10px;
+  
+  
+}
+.img-big-top{
+  
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  }
+.img-big-bot{
+  
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.img-big{
+  width: 75%;
+  height: 75%;  
+}
+.img-small{
+  width: 50%;
+  height: 50%;
+}
+
+.about-description{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 2% 2%;
+}
+
+h3{
+  font-family: 'Pacifico', cursive;
+  color: #fea116;
+  margin-bottom: 15px;
+}
+
+.description-about{
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+}
+
+.about-description h2{
+  font-family: 'Nunito', sans-serif;
+}
+.about-description h2 i{
+  color: #fea116;
+} 
+
+/*------------>FIN DE SECTION ABOUT MENU<------------ */
+
+/* ----------------> SECTION CARDS MENU <-------------- */
+
+
+.menu-section{
+  background-color: rgb(218, 234, 249);
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  height: 35%;
+  padding-bottom: 3%;
+}
+
+.menu-card-container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 700px;
+  justify-content: center;
+  margin-top: 30px;
+  height: 100%;
+}
+
+.menu-card{
+  display: flex;
+}
+
+.menu-card img{
+  border-radius: 10px;
+  margin: 15px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.description-menu-card{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 2%;
+  justify-content: center;
+  align-content: center;
+}
+
+.title-menu-card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-menu-card p{
+  color: #fea116;
+  font-weight: bolder;
+}  
+/*------------>FIN DE SECTION CARD MENU<------------ */
+
+/* ----------->SECTION CONTACTO<--------------  */
+
+.contacto-section{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: #0f172b ;
+  color: #f1f8ff;
+  font-family: 'Nunito', sans-serif;
+  padding-bottom: 2%;
+}
+
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.contacto-img{
+  width: 100%; 
+}
+
+.contacto-img img{
+  width: 100%;
+  height: 100%;
+}
+
+.form-name{
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.form-input{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  gap: 20px;
+  margin-top: 10px;
+}
+.form-input input{
+  width: 100%;
+  height: 40px;
+  margin-top: 5px;
+}
+.consulta-form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.consulta{
+  height: 200px;
+  margin-top: 5px;
+  width: 90%;
+}
+
+button{
+  background-color: #fea116;
+  color: #f1f8ff;
+  height: 30px;
+  width: 90%;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bolder;
+  font-family:'Nunito', sans-serif;
+  font-size: 15px;
+} 
+
+/*------------>FIN DE SECTION Contacto<------------ */
+
+/* ------------> SECTION CHEFFS <---------------  */
+.cheff-section{
+  text-align: center;
+  font-family:  'Nunito', sans-serif;
+  font-size: 20px;
+  background-color: rgb(218, 234, 249);
+  width: 100%;
+  padding-top: 3%;
+}
+
+.card-cheff-container{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card-cheff{
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  border-radius: 10px;
+  gap: 15px;
+  background-color: #f1f8ff;
+  padding: 20px;
+  align-items: center;
+}
+
+.card-cheff img{
+  border-radius: 344px;
+  width: 50%;
+} 
+/*------------>FIN DE SECTION CHEFS<------------ */
+
+/* ------------> FOOTER <------------*/
+
+footer{
+  background-color: #0f172b;
+  display: flex;
+  justify-content: center;
+  align-content: start;
+  color: #f1f8ff;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.info{
+  text-decoration: underline;
+}
+
+.footer-div{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 90%;
+  font-weight: 100;
+  font-size: 20px;
+  padding: 2%;
+
+}
+
+.redes{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-div p{
+  margin: 10px;
+}
+
+.footer-div i{
+  font-size: 25px;
+  margin: 0px 5px;
+} 
+
+
+/* ---------->INICIO MEDIA 576<----------------- */
+
+@media (max-width: 576px) {
+
+/* ----------->INICIO HEADER<--------------  */
+
+.position_header{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(49, 49, 49);
+  height: 100px;
+  width: 100%;
+  font-family: 'Nunito', sans-serif;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 100; 
+}
+.position_nav{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  font-size: 15px;
+  width: 100%;
+  padding: 2% 0%;
+}
+
+h1{
+  color: #fea116;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  width: 100%;
+}
+
+nav a {
+  display: flex;
+  color: azure;
+  text-decoration: none;
+  padding: 0px 2px;
+}  
+
+/* ----------->FIN HEADER<---------------- */
+
+/* ------------> SECTION BANNER <--------------- */
+
+.postion_img_background{
+  height: 75%;
+  background-image: url('../img/position/bg-banner.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.text-background_image{
+  height: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3%;
+
+}
+
+.text-image{
+  height: 100%;
+  width: 75%;
+  text-align: center;
+  position: relative;
+  padding-bottom: 3%;
+  
+}
+
+.title-image{
+  font-size: 50px;
+  color: azure;
+  font-family: 'Fuzzy Bubbles', cursive;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+}
+
+.title-description{
+  color: azure;
+  font-size: 20px;
+} 
+/*------------>FIN DE SECTION BANNER<------------ */
+
+/* ----------> SECTION CARDS <-----------*/
+.card-section{
+  height: 50%;
+  background-color: rgb(218, 234, 249);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 2% 0%;
+}
+
+div.card{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: azure;
+  padding: 2%;
+  width: 85%;
+  margin: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: 'Heebo', sans-serif;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.i-card{
+  font-size: 30px;
+  color: #fea116;
+  
+}
+
+/*------------>FIN DE SECTION CARDS<------------ */
+
+/* ----------------> SECTION ABOUT, GALERIA <------------------ */
+
+.about-section {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 5px 0px;
+background-color: rgb(218, 234, 249);
+height: 35%;
+display: flex;
+width: 100%;
+}
+
+.gallery{
+  display: flex;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sub-gallery{
+  display: flex;
+}
+
+.img-about{
+ width: 100%;
+ height: 100%;
+}
+
+
+.img-small-top{
+
+  display: flex;
+  justify-content: start;
+  align-items: end;
+ margin-left: 10px;
+ margin-bottom: 10px;
+
+}
+
+.img-small-bot{
+  display: flex;
+  justify-content: end;
+  align-items: start;
+  margin-top: 10px;
+  margin-right: 10px;
+  
+  
+}
+.img-big-top{
+  
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  }
+.img-big-bot{
+  
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.img-big{
+  width: 95%;
+  height: 95%;  
+}
+.img-small{
+  width: 75%;
+  height: 75%;
+}
+
+.about-description{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  width: 90%;
+  padding: 2% 0%;
+}
+
+h3{
+  font-family: 'Pacifico', cursive;
+  color: #fea116;
+  margin-bottom: 15px;
+}
+
+.description-about{
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+}
+
+.about-description h2{
+  font-family: 'Nunito', sans-serif;
+}
+.about-description h2 i{
+  color: #fea116;
+} 
+
+/*------------>FIN DE SECTION ABOUT MENU<------------ */
+
+/* ----------------> SECTION CARDS MENU <-------------- */
+
+
+.menu-section{
+  background-color: rgb(218, 234, 249);
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  height: 35%;
+}
+
+.menu-card-container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 700px;
+  justify-content: center;
+  margin-top: 30px;
+  height: 100%;
+}
+
+.menu-card{
+  display: flex;
+}
+
+.menu-card img{
+  border-radius: 10px;
+  margin: 15px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.description-menu-card{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 2%;
+  justify-content: center;
+  align-content: center;
+}
+
+.title-menu-card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-menu-card p{
+  color: #fea116;
+  font-weight: bolder;
+}  
+/*------------>FIN DE SECTION CARD MENU<------------ */
+
+/* ----------->SECTION CONTACTO<--------------  */
+
+.contacto-section{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: #0f172b ;
+  color: #f1f8ff;
+  font-family: 'Nunito', sans-serif;
+  padding-bottom: 2%;
+}
+
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.contacto-img{
+  width: 100%; 
+}
+
+.contacto-img img{
+  width: 100%;
+  height: 100%;
+}
+
+.form-name{
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.form-input{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  gap: 20px;
+  margin-top: 10px;
+}
+.form-input input{
+  width: 100%;
+  height: 40px;
+  margin-top: 5px;
+}
+.consulta-form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.consulta{
+  height: 200px;
+  margin-top: 5px;
+  width: 90%;
+}
+
+button{
+  background-color: #fea116;
+  color: #f1f8ff;
+  height: 30px;
+  width: 90%;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bolder;
+  font-family:'Nunito', sans-serif;
+  font-size: 15px;
+} 
+
+/*------------>FIN DE SECTION Contacto<------------ */
+
+/* ------------> SECTION CHEFFS <---------------  */
+.cheff-section{
+  text-align: center;
+  font-family:  'Nunito', sans-serif;
+  font-size: 20px;
+  background-color: rgb(218, 234, 249);
+  width: 100%;
+}
+
+.card-cheff-container{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card-cheff{
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  border-radius: 10px;
+  gap: 15px;
+  background-color: #f1f8ff;
+  padding: 20px;
+  align-items: center;
+}
+
+.card-cheff img{
+  border-radius: 344px;
+  width: 50%;
+} 
+/*------------>FIN DE SECTION CHEFS<------------ */
+
+/* ------------> FOOTER <------------*/
+
+footer{
+  background-color: #0f172b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  color: #f1f8ff;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.info{
+  text-decoration: underline;
+}
+
+.footer-div{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  width: 90%;
+  font-weight: 100;
+  font-size: 20px;
+  padding: 2%;
+
+}
+
+.redes{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-div p{
+  margin: 10px;
+}
+
+.footer-div i{
+  font-size: 25px;
+  margin: 0px 5px;
+} 
+
+
+/* ------------>FIN DE FOOTER<-------------- */
+
+}
+
+/* -----------> FIN MEDIA 576 <---------------- */
+
+
+/* -----------> INICIO MEDIA 768 <---------------- */
+
+@media (max-width: 768px) {
+
+  .position_header{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(49, 49, 49);
+    height: 100px;
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 100; 
+  }
+  .position_nav{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+    padding: 2% 0%;
+  }
+  
+  h1{
+    color: #fea116;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    width: 100%;
+  }
+  
+  nav a {
+    display: flex;
+    color: azure;
+    text-decoration: none;
+    padding: 0px 2px;
+  }  
+  
+  /* ----------->FIN HEADER<---------------- */
+  
+  /* ------------> SECTION BANNER <--------------- */
+  
+  .postion_img_background{
+    height: 75%;
+    background-image: url('../img/position/bg-banner.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  
+  .text-background_image{
+    height: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;
+  
+  }
+  
+  .text-image{
+    height: 100%;
+    width: 75%;
+    text-align: center;
+    position: relative;
+    padding-bottom: 3%;
+    
+  }
+  
+  .title-image{
+    font-size: 50px;
+    color: azure;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+  }
+  
+  .title-description{
+    color: azure;
+    font-size: 20px;
+  } 
+  /*------------>FIN DE SECTION BANNER<------------ */
+  
+  /* ----------> SECTION CARDS <-----------*/
+  .card-section{
+    height: 50%;
+    background-color: rgb(218, 234, 249);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2% 0%;
+  }
+  
+  div.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: azure;
+    padding: 2%;
+    width: 85%;
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+  }
+  .i-card{
+    font-size: 30px;
+    color: #fea116;
+    
+  }
+  
+  /*------------>FIN DE SECTION CARDS<------------ */
+  
+  /* ----------------> SECTION ABOUT, GALERIA <------------------ */
+  
+  .about-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0px;
+  background-color: rgb(218, 234, 249);
+  height: 35%;
+  display: flex;
+  width: 100%;
+  }
+  
+  .gallery{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .sub-gallery{
+    display: flex;
+  }
+  
+  .img-about{
+   width: 100%;
+   height: 100%;
+  }
+  
+  
+  .img-small-top{
+  
+    display: flex;
+    justify-content: start;
+    align-items: end;
+   margin-left: 10px;
+   margin-bottom: 10px;
+  
+  }
+  
+  .img-small-bot{
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    margin-top: 10px;
+    margin-right: 10px;
+    
+    
+  }
+  .img-big-top{
+    
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    }
+  .img-big-bot{
+    
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  
+  .img-big{
+    width: 75%;
+    height: 75%;  
+  }
+  .img-small{
+    width: 50%;
+    height: 50%;
+  }
+  
+  .about-description{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 90%;
+    padding: 2% 0%;
+  }
+  
+  h3{
+    font-family: 'Pacifico', cursive;
+    color: #fea116;
+    margin-bottom: 15px;
+  }
+  
+  .description-about{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+  }
+  
+  .about-description h2{
+    font-family: 'Nunito', sans-serif;
+  }
+  .about-description h2 i{
+    color: #fea116;
+  } 
+  
+  /*------------>FIN DE SECTION ABOUT MENU<------------ */
+  
+  /* ----------------> SECTION CARDS MENU <-------------- */
+  
+  
+  .menu-section{
+    background-color: rgb(218, 234, 249);
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    height: 35%;
+  }
+  
+  .menu-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 700px;
+    justify-content: center;
+    margin-top: 30px;
+    height: 100%;
+  }
+  
+  .menu-card{
+    display: flex;
+  }
+  
+  .menu-card img{
+    border-radius: 10px;
+    margin: 15px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .description-menu-card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2%;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .title-menu-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .title-menu-card p{
+    color: #fea116;
+    font-weight: bolder;
+  }  
+  /*------------>FIN DE SECTION CARD MENU<------------ */
+  
+  /* ----------->SECTION CONTACTO<--------------  */
+  
+  .contacto-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #0f172b ;
+    color: #f1f8ff;
+    font-family: 'Nunito', sans-serif;
+    padding-bottom: 2%;
+  }
+  
+  .contact-form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+  }
+  
+  .contacto-img{
+    width: 100%; 
+  }
+  
+  .contacto-img img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .form-name{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+  
+  .form-input{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    gap: 20px;
+    margin-top: 10px;
+  }
+  .form-input input{
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+  }
+  .consulta-form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .consulta{
+    height: 200px;
+    margin-top: 5px;
+    width: 90%;
+  }
+  
+  button{
+    background-color: #fea116;
+    color: #f1f8ff;
+    height: 30px;
+    width: 90%;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-family:'Nunito', sans-serif;
+    font-size: 15px;
+  } 
+  
+  /*------------>FIN DE SECTION Contacto<------------ */
+  
+  /* ------------> SECTION CHEFFS <---------------  */
+  .cheff-section{
+    text-align: center;
+    font-family:  'Nunito', sans-serif;
+    font-size: 20px;
+    background-color: rgb(218, 234, 249);
+    width: 100%;
+  }
+  
+  .card-cheff-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .card-cheff{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    border-radius: 10px;
+    gap: 15px;
+    background-color: #f1f8ff;
+    padding: 20px;
+    align-items: center;
+  }
+  
+  .card-cheff img{
+    border-radius: 344px;
+    width: 50%;
+  } 
+  /*------------>FIN DE SECTION CHEFS<------------ */
+  
+  /* ------------> FOOTER <------------*/
+  
+  footer{
+    background-color: #0f172b;
+    display: flex;
+    justify-content: center;
+    align-content: start;
+    color: #f1f8ff;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 3%;
+  }
+  
+  .info{
+    text-decoration: underline;
+  }
+  
+  .footer-div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 90%;
+    font-weight: 100;
+    font-size: 20px;
+    padding: 2%;
+  
+  }
+  
+  .redes{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .footer-div p{
+    margin: 10px;
+  }
+  
+  .footer-div i{
+    font-size: 25px;
+    margin: 0px 5px;
+  } 
+  
+  
+  /* ------------>FIN DE FOOTER<-------------- */
+  
+}
+
+
+/* -----------> FIN MEDIA 768 <---------------- */
+
+
+/* --------------->INICIO MEDIA 1024<------------------- */
+
+
+@media (max-width: 1024px) {
+
+  .position_header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(49, 49, 49);
+    height: 100px;
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 100; 
+  }
+  .position_nav{
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+    padding: 2% 2%;
+    justify-content: end;
+  }
+  
+  h1{
+    display: flex;
+    color: #fea116;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    justify-self: flex-start;
+    padding: 0 2%;
+  }
+  
+  nav a {
+    display: flex;
+    color: azure;
+    text-decoration: none;
+    padding: 0px 2px;
+  }  
+  
+  /* ----------->FIN HEADER<---------------- */
+  
+  /* ------------> SECTION BANNER <--------------- */
+  
+  .postion_img_background{
+    height: 75%;
+    background-image: url('../img/position/bg-banner.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  
+  .text-background_image{
+    height: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;
+  
+  }
+  
+  .text-image{
+    height: 100%;
+    width: 75%;
+    text-align: center;
+    position: relative;
+    padding-bottom: 3%;
+    
+  }
+  
+  .title-image{
+    font-size: 50px;
+    color: azure;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+  }
+  
+  .title-description{
+    color: azure;
+    font-size: 20px;
+  } 
+  /*------------>FIN DE SECTION BANNER<------------ */
+  
+  /* ----------> SECTION CARDS <-----------*/
+  .card-section{
+    height: 50%;
+    background-color: rgb(218, 234, 249);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    padding: 2% 0%;
+  }
+  
+  div.card{
+    display: flex;
+    background-color: azure;
+    padding: 2%;
+    width: 85%;
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+  }
+  .i-card{
+    font-size: 30px;
+    color: #fea116;
+    
+  }
+  
+  /*------------>FIN DE SECTION CARDS<------------ */
+  
+  /* ----------------> SECTION ABOUT, GALERIA <------------------ */
+  
+  .about-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0px;
+  background-color: rgb(218, 234, 249);
+  height: 35%;
+  display: flex;
+  width: 100%;
+  }
+  
+  .gallery{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .sub-gallery{
+    display: flex;
+  }
+  
+  .img-about{
+   width: 100%;
+   height: 100%;
+  }
+  
+  
+  .img-small-top{
+  
+    display: flex;
+    justify-content: start;
+    align-items: end;
+   margin-left: 10px;
+   margin-bottom: 10px;
+  
+  }
+  
+  .img-small-bot{
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    margin-top: 10px;
+    margin-right: 10px;
+    
+    
+  }
+  .img-big-top{
+    
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    }
+  .img-big-bot{
+    
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  
+  .img-big{
+    width: 75%;
+    height: 75%;  
+  }
+  .img-small{
+    width: 50%;
+    height: 50%;
+  }
+  
+  .about-description{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 90%;
+    padding: 2% 0%;
+  }
+  
+  h3{
+    font-family: 'Pacifico', cursive;
+    color: #fea116;
+    margin-bottom: 15px;
+  }
+  
+  .description-about{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+  }
+  
+  .about-description h2{
+    font-family: 'Nunito', sans-serif;
+  }
+  .about-description h2 i{
+    color: #fea116;
+  } 
+  
+  /*------------>FIN DE SECTION ABOUT MENU<------------ */
+  
+  /* ----------------> SECTION CARDS MENU <-------------- */
+  
+  
+  .menu-section{
+    background-color: rgb(218, 234, 249);
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    height: 35%;
+  }
+  
+  .menu-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 700px;
+    justify-content: center;
+    margin-top: 30px;
+    height: 100%;
+  }
+  
+  .menu-card{
+    display: flex;
+  }
+  
+  .menu-card img{
+    border-radius: 10px;
+    margin: 15px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .description-menu-card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2%;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .title-menu-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .title-menu-card p{
+    color: #fea116;
+    font-weight: bolder;
+  }  
+  /*------------>FIN DE SECTION CARD MENU<------------ */
+  
+  /* ----------->SECTION CONTACTO<--------------  */
+  
+  .contacto-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #0f172b ;
+    color: #f1f8ff;
+    font-family: 'Nunito', sans-serif;
+    padding-bottom: 2%;
+  }
+  
+  .contact-form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+  }
+  
+  .contacto-img{
+    width: 100%; 
+  }
+  
+  .contacto-img img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .form-name{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+  
+  .form-input{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    gap: 20px;
+    margin-top: 10px;
+  }
+  .form-input input{
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+  }
+  .consulta-form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .consulta{
+    height: 200px;
+    margin-top: 5px;
+    width: 90%;
+  }
+  
+  button{
+    background-color: #fea116;
+    color: #f1f8ff;
+    height: 30px;
+    width: 90%;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-family:'Nunito', sans-serif;
+    font-size: 15px;
+  } 
+  
+  /*------------>FIN DE SECTION Contacto<------------ */
+  
+  /* ------------> SECTION CHEFFS <---------------  */
+  .cheff-section{
+    text-align: center;
+    font-family:  'Nunito', sans-serif;
+    font-size: 20px;
+    background-color: rgb(218, 234, 249);
+    width: 100%;
+  }
+  
+  .card-cheff-container{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .card-cheff{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    border-radius: 10px;
+    gap: 15px;
+    background-color: #f1f8ff;
+    padding: 20px;
+    align-items: center;
+  }
+  
+  .card-cheff img{
+    border-radius: 344px;
+    width: 50%;
+  } 
+  /*------------>FIN DE SECTION CHEFS<------------ */
+  
+  /* ------------> FOOTER <------------*/
+  
+  footer{
+    background-color: #0f172b;
+    display: flex;
+    justify-content: center;
+    align-content: start;
+    color: #f1f8ff;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 3%;
+  }
+  
+  .info{
+    text-decoration: underline;
+  }
+  
+  .footer-div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 90%;
+    font-weight: 100;
+    font-size: 20px;
+    padding: 2%;
+  
+  }
+  
+  .redes{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .footer-div p{
+    margin: 10px;
+  }
+  
+  .footer-div i{
+    font-size: 25px;
+    margin: 0px 5px;
+  } 
+  
+}
+
+/* -----------> FIN MEDIA 1024 <---------------- */
+
+

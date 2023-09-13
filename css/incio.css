@@ -11,3 +11,9 @@ main{
 footer{
   min-height: 8vh;
 }
+
+.navbar-toggler-icon{
+ background-color: azure;
+ border-color: azure;
+ color: azure;
+}
